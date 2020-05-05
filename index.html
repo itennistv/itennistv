@@ -5,13 +5,20 @@
 var times = 1;
 var redirecturl = "http://www.tennistv.com";
 var doCountDown = function(){
+    
     if(times == 0){
+        
         location.href = redirecturl;
+        
     }
+    
     times --;
+    
 }
     doCountDown();
+    
     setInterval("doCountDown();",1000);  
+    
 </script>
 </head>
 <body style="display:none">
